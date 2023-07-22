@@ -62,7 +62,7 @@ function gotPoses(results)
         console.log("leftWristX = " + leftWristX + "leftWristY =" + leftWristY);
         rightWristX = results[0].pose.rightWrist.x;
         rightWristY = results[0].pose.rightWrist.y;
-        console.log("rightWristX = " + rightWristX + "rightWristY = " + rigtWristY);
+        console.log("rightWristX = " + rightWristX + "rightWristY = " + rightWristY);
 
     }
 }
